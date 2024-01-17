@@ -1,0 +1,101 @@
+/* BASE COLOR #5e4a49 */
+.body {
+  font-family: SansMonoRegular;
+  background: #483838;
+  color: #816664;
+  letter-spacing: -1px;
+}
+
+.header-0001 {
+  color: #FFFFFF;
+  padding: 8px;
+  margin-bottom: 2px;
+  height: 32px;
+  background-image: url('../../images/classic-negated-header.png');
+  background-size: 100%;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(45deg, #483838 0%, #816664 100%);
+  border-image-slice: 1;
+}
+
+#header-0001-text-1 {
+  letter-spacing: 4px;
+  font-family: SansMedium;
+  font-size: 32px;
+  position: absolute;
+  transform: translateY(-15%);
+}
+
+#header-0001-text-2 {
+  letter-spacing: 8px;
+  font-family: SansSemiBold;
+  font-size: 32px;
+  position: absolute;
+  transform: translateY(-15%);
+  right: 10px;
+}
+
+#opt-001 {
+  width: 150px;
+  font-family: SansSemiBold;
+  letter-spacing: -1px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #644f4e;
+  box-shadow: 0px 0px 2.5px #00000044;
+  color: #816664;
+}
+
+#opt-002 {
+  width: 150px;
+  font-family: SansSemiBold;
+  letter-spacing: -1px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #644f4e;
+  box-shadow: 0px 0px 2.5px #00000044;
+  color: #816664;
+}
+
+#opt-003 {
+  width: 150px;
+  font-family: SansSemiBold;
+  letter-spacing: -1px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #644f4e;
+  box-shadow: 0px 0px 2.5px #00000044;
+  color: #816664;
+}
+
+.tabButtons {
+  font-family: SansLight;
+  color: #816664;
+  border: 1px solid #644f4e;
+  border-radius: 0px;
+  box-shadow: 0px 2px 0px #2b2221;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 2.5px;
+}
+
+.tabButtons:hover {
+  transform: translateY(-10%);
+}
+
+.achTabLocked , .prestigeTabLocked, .transendanceTabLocked {
+  color: rgba(255, 255, 255, 0);
+  border: 0px solid #4e5764;
+  border-radius: 2.5px;
+  box-shadow: 0px 0px 0px #000000FF;
+}
+
+.btn {
+  width: 400px;
+  font-family: SansMonoRegular;
+  letter-spacing: -1px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #644f4e;
+  box-shadow: 0px 0px 2.5px #00000044;
+  color: #816664;
+}

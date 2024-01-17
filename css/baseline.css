@@ -1,0 +1,137 @@
+/* defines base style , such as font, size and additional few things */
+* {
+  transition-duration: 0.15s;
+}
+
+.body {
+  font-family: SansRegular;
+}
+
+.tab {
+  display: none;
+}
+
+.unlocked {
+  display: block;
+}
+
+.tabButtons {
+  width: 12%;
+  height: 24px;
+}
+
+#decoy-tab {
+  color: rgba(255,255,255,0);
+  background: rgba(255,255,255,0);
+  border: 0px solid;
+  box-shadow: 0px 0px 0px #000000;
+}
+
+#quantitySlider {
+  width: 1000px;
+  height: 12px;
+}
+
+#quantitySlider_lf {
+  position: absolute;
+  left: 144px;
+}
+
+#quantitySlider_rg {
+  position: absolute;
+  right: 144px;
+}
+.volume-text {
+  font-size: 24px;
+  justify-content: center;
+}
+
+.pp-text {
+  font-size: 24px;
+  justify-content: center;
+}
+#volume {
+  font-family: SansMonoRegular;
+  letter-spacing: 2px;
+}
+
+#prestige-point {
+  font-family: SansMonoRegular;
+  letter-spacing: 2px;
+}
+
+.prestige-upgrade {
+  float: left;
+  font-size: 16px !important;
+  margin: 5px;
+  width: 225px;
+  height: 150px;
+}
+
+#mono {
+  font-family: SansMonoRegular;
+}
+
+#pressure {
+  font-family: SansMonoRegular;
+  letter-spacing: 2px;
+}
+
+#toast-container {
+  position: fixed;
+  top: -5%;
+  right: 20px;
+  z-index: 99999999;
+}
+
+.toast {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  margin: 5px;
+}
+
+.toast-success {
+  background-color: rgba(0, 255, 0, 0.2);
+  background-size: 33%;
+}
+
+.toast-notify {
+  background-color: #4D65B42A;
+  background-size: 33%;
+}
+
+.toast-alert {
+  background-color: #FFD7004A;
+  background-size: 33%;
+}
+
+.toast-neutral {
+  background-color: #FFFFFF2A;
+  background-size: 33%;
+}
+
+.show-toast {
+  display: block;
+  animation: slide-up 0.5s ease-in-out forwards;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.cen {
+ vertical-align: middle;
+ margin-top: -4px;
+}

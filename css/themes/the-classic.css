@@ -1,0 +1,124 @@
+/* BASE COLOR #49515e */
+
+.body {
+  background: #383e48;
+  color: #646f81;
+}
+
+.header-0001 {
+  color: #FFFFFF;
+  padding: 8px;
+  margin-bottom: 2px;
+  height: 32px;
+  background-image: url('../../images/classic-header.png');
+  background-size: 100%;
+  border-bottom: 3px solid;
+  border-radius: 2.5px;
+  border-image: linear-gradient(45deg, #383e48 0%, #646f81 100%);
+  border-image-slice: 1;
+}
+
+#header-0001-text-1 {
+  letter-spacing: 4px;
+  font-family: SansMedium;
+  font-size: 32px;
+  position: absolute;
+  transform: translateY(-15%);
+}
+
+#header-0001-text-2 {
+  letter-spacing: 8px;
+  font-family: SansSemiBold;
+  font-size: 32px;
+  position: absolute;
+  transform: translateY(-15%);
+  right: 10px;
+}
+
+#opt-001 {
+  width: 150px;
+  font-family: SansSemiBold;
+  letter-spacing: -1px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #4e5764;
+  box-shadow: 0px 0px 2.5px #00000044;
+  color: #646f81;
+}
+
+#opt-002 {
+  width: 150px;
+  font-family: SansSemiBold;
+  letter-spacing: -1px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #4e5764;
+  box-shadow: 0px 0px 2.5px #00000044;
+  color: #646f81;
+}
+
+#opt-003 {
+  width: 150px;
+  font-family: SansSemiBold;
+  letter-spacing: -1px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #4e5764;
+  box-shadow: 0px 0px 2.5px #00000044;
+  color: #646f81;
+}
+
+#quantitySlider_rg {
+  position: absolute;
+  right: 144px;
+  color: #894f86;
+}
+
+
+.tabButtons {
+  font-family: SansMonoRegular;
+  color: #646f81;
+  border: 1px solid #4e5764;
+  border-radius: 2.5px;
+  box-shadow: 0px 0px 2.5px #00000088;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 2.5px;
+}
+
+.tabButtons:hover {
+  transform: translateY(-10%);
+}
+
+.achTabLocked , .prestigeTabLocked, .transendanceTabLocked{
+  color: rgba(255, 255, 255, 0);
+  border: 0px solid #4e5764;
+  border-radius: 2.5px;
+  box-shadow: 0px 0px 0px #00000088;
+}
+
+#tab1, #tab2, #tab3 {
+  position: relative;
+  border-top: 0.5px solid #4e5764;
+  padding: 10px;
+}
+
+#tab1::before, #tab2::before, #tab3::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 0.5px;
+  box-shadow: 0px 0px 2.5px #00000088;
+}
+
+.btn {
+  width: 400px;
+  font-family: SansMonoRegular;
+  letter-spacing: -1px;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #4e5764;
+  box-shadow: 0px 0px 2.5px #00000044;
+  color: #646f81;
+}

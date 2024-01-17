@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/ExpantaNum.min.js"></script>
+  <script src="js/special-operators.js"></script>
+  <script src="js/utility.js"></script>
+  <script src="js/achivements.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/themes.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/font-setup.css"/>
+  <link rel="stylesheet" type="text/css" href="css/baseline.css"/>  
+  <link id="stylesheet" rel="stylesheet" type="text/css" href="css/themes/the-classic.css"/>
+  <title>NYIGM 2024</title>
+</head>
+
+<body class="body" onload="getSaveThingOrSomething()">
+	<div id="toast-container"></div>
+  <div class="header-0001">
+    <span id="header-0001-text-1">Niko's NYIGJ</span><span id="header-0001-text-2">2024</span>
+  </div>
+  <span style="font-size: 8px">*scales are not in comparison to real life scenarios</span><br><br>
+  <button onclick="showTab('tab1')" id="mainTabButton" class="tabButtons">Main</button>
+  <button onclick="showTab('tab2')" id="prestigeTabButton" class="tabButtons" disabled>Prestige</button>
+  <button onclick="showTab('tab3')" id="transendanceTabButton" class="tabButtons" disabled>Transendance</button>
+  <button onclick="showTab('tab4')" id="achTabButton" class="tabButtons" disabled>Achievements</button>
+  <button onclick="showTab('tab5')" id="setTabButton" class="tabButtons">Settings</button>
+<div id="tab1" class="tab unlocked">
+<span>MAIN TAB</span><br>
+<span>-</span><br><br>
+<span class="volume-text">There is a container which has &nbsp;<span id="volume">1.000</span>&nbsp; of some energetic gas</span>
+<br>
+<span> Current Pressure - &nbsp;<span id="pressure">1.000 mPa</span></span><br>
+<span>Min Compression - <span id="min-compress">0.001</span>m<sup>3</sup></span>
+<br><br>
+<button class="btn compress" id="compress-btn" onclick="compress()"></button>
+</div>
+<div id="tab2" class="tab">
+<span class="prestigeTabColor">PRESTIGE TAB</span><br>
+<span class="prestigeTabColor">-</span><br><br>
+<span class="pp-text">You have &nbsp;<span id="prestige-point">1.000</span>&nbsp; Prestige Points <img class="cen" src='images/Prestige_Cubes.png' height=32 width=32></span><br>
+<span class="pp-text" id="p-energy-text"></span><br><br>
+<button class="btn prestige" id="prestige-btn-text" onclick="prestige()">No...</span></button><br><br>
+<button class="btn prestige-upgrade" onclick="buyPU1()">
+  <span id="prestige-upgrade-1-t">Stronger Compression</span><br>
+  <span id="prestige-upgrade-1-d">Adds +1.00 to compression rate base, effectively decreases clicking<span><br>
+  <span id="prestige-upgrade-1-e">Current Effect: x.xx rate base</span><br>
+  <span id="prestige-upgrade-1-c">Cost: x.xx Prestige Points</span>
+</button>
+<button class="btn prestige-upgrade" onclick="buyPU2()">
+<span id="prestige-upgrade-2-t">Improved Compression</span><br>
+<span id="prestige-upgrade-2-d">Improve Min Volume size & Max Pressure gain by 17.50%, which effectively decreases time to prestige<span><br>
+<span id="prestige-upgrade-2-e">Current Effect: *x.xx of improvement</span><br>
+<span id="prestige-upgrade-2-c">Cost: x.xx Prestige Points</span>
+<button class="btn prestige-upgrade" onclick="buyPU3()">
+<span id="prestige-upgrade-3-t">Expansion I</span><br>
+<span id="prestige-upgrade-3-d">Unlock Energy<span><br>
+<span id="prestige-upgrade-3-e"></span><br>
+<span id="prestige-upgrade-3-c">Cost: x.xx Prestige Points</span>
+</button>
+</div>
+<div id="tab3" class="tab">
+  <span class="achTabColor">TRANSENDANCE TAB</span><br>
+  <span class="achTabColor">-</span><br><br>
+  <br>
+  didnt have enough time/ideas =(
+  mabye after jam ends?
+</div>
+<div id="tab4" class="tab">
+<span class="achTabColor">ACHIEVEMENT TAB</span><br>
+<span class="achTabColor">-</span><br><br>
+  <br>
+  <div class="achievement-cont-lvl-1" id="best-pressure">
+    Best Pressure <span id="best-pressure-lvl">★</span><br>
+    Reach <span id="best-pressure-req">100</span> mPa Pressure
+  </div>
+  <br>
+  didnt have enough time/ideas =(
+</div>
+<div id="tab5" class="tab">
+  <button class="option" id="opt-001" onclick="saveData(data, 'DS-00000005')">Manual Save</button>
+<button class="option" id="opt-002" onclick="hardReset()">Hard Reset</button>
+<button class="option" id="opt-003" onclick="toggleTheme()">Theme</button>
+<br>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/* literally just font importing so it does not clutter main css */
+@font-face {
+  font-family: SansExtraLight;
+  src: url('../fonts/Sans-Extra-Light.ttf');
+}
+
+@font-face {
+  font-family: SansLight;
+  src: url('../fonts/Sans-Light.ttf');
+}
+
+@font-face {
+  font-family: SansRegular;
+  src: url('../fonts/Sans-Regular.ttf');
+}
+
+@font-face {
+  font-family: SansMedium;
+  src: url('../fonts/Sans-Medium.ttf');
+}
+
+@font-face {
+  font-family: SansSemiBold;
+  src: url('../fonts/Sans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: SansExtraBold;
+  src: url('../fonts/Sans-Extra-Bold.ttf');
+}
+
+@font-face {
+  font-family: SansCondensedRegular;
+  src: url('../fonts/Sans-Condensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: SansMonoRegular;
+  src: url('../fonts/Sans-Mono-Regular.ttf');
+}
+
+@font-face {
+  font-family: SansMonoBold;
+  src: url('fonts/Sans-Mono-Bold.ttf');
+}
